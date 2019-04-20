@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Configurations"
+    android:id="@+id/configurationView"
+    android:background="@color/light">
+
+    <TextView
+        android:id="@+id/caution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="23dp"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textSize="19sp"
+        android:text=" ☣ Experimental Application ☣ "
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/permissionsInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/caution"
+        android:padding="23dp"
+        android:textSize="13sp"
+        android:textColor="@color/dark"
+        android:text="I Need Permissions in Accessibility Services to Click On Your Behalf\nPlease, Click Here to Continue..."/>
+
+</RelativeLayout>

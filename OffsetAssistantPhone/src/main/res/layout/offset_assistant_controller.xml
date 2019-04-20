@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+    
+    <ImageView
+        android:id="@+id/control"
+        android:layout_height="57dp"
+        android:layout_width="57dp"
+        android:src="@drawable/ic_controller" />
+
+    <!--<net.geekstools.offsetassistant.Util.UI.ControllerView
+        android:id="@+id/control"
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:background="@drawable/ic_controller"/>-->
+
+</RelativeLayout>

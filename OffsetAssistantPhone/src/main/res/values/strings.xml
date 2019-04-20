@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Offset Assistant</string>
+
+    <string name="split_service_desc">
+        Offset Assistant | These Permissions Allow Me to Perform Action On Your Behalf.
+    </string>
+    <string name="split_service_summary">Offset Assistant | Required to Perform Actions....</string>
+
+    <string name="bindTitle">Stability Service</string>
+    <string name="bindDesc">It Will Be Removed Automatically</string>
+
+</resources>
