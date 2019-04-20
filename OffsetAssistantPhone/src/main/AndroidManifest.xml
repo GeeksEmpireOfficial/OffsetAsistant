@@ -46,7 +46,7 @@
                 android:name="android.accessibilityservice"
                 android:resource="@xml/accessibility_service" />
         </service>
-        <service android:name=".BindServices"/>
+        <service android:name=".BindServices" />
 
     </application>
 
